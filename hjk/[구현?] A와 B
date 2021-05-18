@@ -1,0 +1,27 @@
+str1 = input()
+str2 = input()
+#A는 그대로, B는 뒤집고 붙인다.
+#A와 B 둘다 그래도 붙이고, 뒤집기 카운트를 세주자.
+#str1이 str2에 있거나 뒤집힌 형태로 있으면 그걸 제외하고 str2에서 빼서 0이 만들어 지는지 .
+
+def ab(str1,input_str):
+    cnt1 = len(str1)
+    while True:
+        if input_str[-1] == "A":
+            input_str = input_str[:-1]
+        elif input_str[-1] == "B": #원래 알파벳에서 뒤집고 붙였으니까 str2에서는 떼고 뒤집는다.
+            input_str = input_str[:-1]
+            input_str = input_str[::-1]
+        cnt2 = len(input_str)
+        if cnt1 == cnt2:
+            if str1 == input_str:
+                return 1
+            else:
+                return 0
+if str1 not in str2 and str1[::-1] not in str2:
+    print(0)
+
+else:
+    answer = ab(str1, str2)
+
+print(answer)
