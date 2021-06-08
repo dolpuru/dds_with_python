@@ -1,0 +1,11 @@
+n = int(input())
+answer = 0
+
+for i in range(1, n+1):
+    k = n // i
+    m = n % i
+    temp_answer = (k**(i - m)) * ((k + 1)**m)
+
+    answer = max(temp_answer, answer)
+
+print(answer % 10007)
