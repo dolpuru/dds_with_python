@@ -66,7 +66,15 @@ level : Gold 5 ~
 <img src="http://img.shields.io/badge/yujeongkwon-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a></td>
 </tr>
-
+<tr>
+<td style="text-align:left">Team</td>
+<td style="text-align:left">김명준</td>
+<td style="text-align:left">미정</td>
+<td style="text-align:left">yoojeongkwon@naver.com</td>
+<td style="text-align:left"><a href="https://github.com/yujeongkwon">
+<img src="http://img.shields.io/badge/yujeongkwon-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+</a></td>
+</tr>
 </tbody>
 </table>
 
