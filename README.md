@@ -47,7 +47,7 @@ level : silver 5 ~ gold 1
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Team1</td>
+<td style="text-align:left">Team</td>
 <td style="text-align:left">한준규</td>
 <td style="text-align:left">Backend</td>
 <td style="text-align:left">must1080@naver.com</td>
