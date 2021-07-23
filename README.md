@@ -58,7 +58,7 @@ level : silver 5 ~ gold 1
 <tr>
 <td style="text-align:left">Team</td>
 <td style="text-align:left">조영재</td>
-<td style="text-align:left">Frontend, Backend </td>
+<td style="text-align:left">AI, He's gone... </td>
 <td style="text-align:left">wo78644@gmail.com</td>
 <td style="text-align:left"><a href="https://github.com/wo7864">
 <img src="http://img.shields.io/badge/wo7864-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
