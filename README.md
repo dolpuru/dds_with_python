@@ -13,7 +13,14 @@
 ## Level
 ```bash
 https://solved.ac/
-level : Gold 5 ~
+level : silver 5 ~ gold 1
+```
+<br></br>
+
+## plan
+```bash
+~7/28 Binary Search gold 3
+~
 ```
 <br></br>
  
