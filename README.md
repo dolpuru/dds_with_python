@@ -20,7 +20,7 @@ level : silver 5 ~ gold 1
 ## plan
 ```bash
 ~7/28 Binary Search gold 3
-~
+~8/5 BFS,DFS silver 1 and Two Pointer gold 5
 ```
 <br></br>
  
