@@ -78,8 +78,8 @@ level : silver 5 ~ gold 1
 <td style="text-align:left">김명준</td>
 <td style="text-align:left">미정</td>
 <td style="text-align:left">skatks1016@naver.com</td>
-<td style="text-align:left"><a href="https://github.com/kmjj111">
-<img src="http://img.shields.io/badge/kmjj111-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+<td style="text-align:left"><a href="https://github.com/kmj111">
+<img src="http://img.shields.io/badge/kmj111-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a></td>
 </tr>
 </tbody>
