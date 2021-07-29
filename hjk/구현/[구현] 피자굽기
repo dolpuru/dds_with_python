@@ -1,0 +1,21 @@
+m, n = map(int, input().split())
+oven = list(map(int,input().split()))
+pizza = list(map(int, input().split()))
+
+
+check = len(oven)
+for i in range(1, m):
+    oven[i] = min(oven[i], oven[i-1])
+    
+pizzaindex = 0
+depth = m-1
+
+for i in range(depth, -1, -1):
+    if pizzaindex >= len(pizza):
+        print(depth+1)
+        break
+    if oven[i] >= pizza[pizzaindex]:
+        pizzaindex += 1
+        depth = i
+else:
+    print(0)

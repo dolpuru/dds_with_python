@@ -1,0 +1,36 @@
+from collections import deque
+#https://url.kr/xz9au6
+n = int(input())
+p1, p2 = map(int, input().split())
+m = int(input())
+
+list_ = [[] for _ in range( n + 1 )]
+result = [0 for _ in range( n+1 )]
+for i in range(m):
+    x, y = map(int, input().split())
+    list_[x].append(y)
+    list_[y].append(x)
+
+
+def dfs(p1):
+    q=deque()
+    visited = [0 for _ in range(n+1)]
+
+    q.append(p1)
+    visited[p1] = 1
+
+    while q:
+        x = q.popleft()
+
+        for i in list_[x]:
+            if visited[i] == 0:
+                visited[i] = 1
+                result[i] = result[x] + 1
+                q.append(i)
+
+dfs(p1)
+
+if result[p2] == 0:
+    print(-1)
+else:
+    print(result[p2])

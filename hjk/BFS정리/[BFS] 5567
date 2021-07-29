@@ -1,0 +1,31 @@
+from collections import deque
+n = int(input())
+m = int(input())
+list_ = [[] for _ in range(n+1)]
+visited = [0 for _ in range(n+1)]
+
+for i in range(m):
+    a, b = map(int, input().split())
+    list_[a].append(b)
+    list_[b].append(a)
+
+q = deque()
+def bfs(start):
+    cnt = 1
+    answer = 0
+    q.append([start,0])
+    visited[start] = 1
+
+    while q:
+        temp = q.popleft()
+        if temp[1] == 1 or temp[1] == 2:
+            answer += 1
+        for i in list_[temp[0]]:
+                if visited[i] == 1:
+                    continue
+                else:
+                    q.append([i, temp[1] + 1])
+                    visited[i] = 1
+    return answer
+answer  = bfs(1)
+print(answer)
