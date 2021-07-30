@@ -16,6 +16,6 @@ def solution(scoville, K):
             answer_cnt += 1
         except:
             return -1
-        
+         
         
     return answer_cnt
