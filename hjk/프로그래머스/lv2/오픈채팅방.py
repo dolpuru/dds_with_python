@@ -46,3 +46,19 @@ def solution(record): # uid의 수정을 다 마친 다음 포맷팅으로 넣�
             answer.append(f"{uid_list[temp_uid]}님이 나갔습니다.")
 
     return answer
+
+# 프로그래머스 모범답. ... 왜 split() 할 생각을 못 했을까 .. ? 
+# def solution(record):
+#     answer = []
+#     namespace = {}
+#     printer = {'Enter':'님이 들어왔습니다.', 'Leave':'님이 나갔습니다.'}
+#     for r in record:
+#         rr = r.split(' ')
+#         if rr[0] in ['Enter', 'Change']:
+#             namespace[rr[1]] = rr[2]
+
+#     for r in record:
+#         if r.split(' ')[0] != 'Change':
+#             answer.append(namespace[r.split(' ')[1]] + printer[r.split(' ')[0]])
+
+#     return answer
