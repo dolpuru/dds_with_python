@@ -1,0 +1,67 @@
+def solution(expression): # 특이한 알고리즘이 필요한게 아니라 단순 구현 같은데 .. ! split를 이용하면 바로 될 것 같음
+    s = ["-","+","*"]
+    answer = 0
+    for i in range(6):
+        temp = expression
+        first,second,third = (i) % 3, (i+2) % 3, (i+3) % 3
+        first_value_list = list(map(str, temp.split(s[first]))) # 첫번째 요소로 나누기
+        
+        second_value_list = []
+        for j in range(len(first_value_list)):
+            second_value_list.append(list(map(str, first_value_list[j].split(s[second])))) # [[,,],[,,]]
+            
+        temp_second_list = [[] for _ in range(len(second_value_list))] # 마지막 요소 시행
+        
+        
+        for k in range(len(second_value_list)):
+            for m in range(len(second_value_list[k])):
+                if s[third] == "+":
+                    temp = list(map(int, second_value_list[k][m].split("+")))
+                    temp_second_list[k].append(sum(temp))
+                
+                elif s[third] == "-":
+                    temp = list(map(int, second_value_list[k][m].split("-")))
+                    temp_minus = temp[0]
+                    for l in range(1, len(temp)):
+                        temp_minus -= temp[l]
+                    temp_second_list[k].append(temp_minus)
+                    
+                elif s[third] == "*":
+                    temp = list(map(int, second_value_list[k][m].split("*")))
+                    temp_mul = temp[0]
+                    for l in range(1, len(temp)):
+                        temp_mul *= temp[l]
+                    temp_second_list[k].append(temp_mul)
+        
+        temp_first_list = [] # 두번쨰 요소 시행
+        
+        for k in range(len(second_value_list)):
+            if s[second] == "+":
+                temp_first_list.append(sum(second_value_list[k]))
+
+            else:
+                temp = second_value_list[k][0]
+                for m in range(1, len(second_value_list[k])):
+
+                    if s[second] == "-":
+                        temp -= second_value_list[k][m]
+
+                    elif s[second] == "*":
+                        temp *= second_value_list[k][m]
+
+                temp_second_list.append(temp)
+        
+        # 마지막 리스트 합치기
+        if s[first] == "+":
+            temp_answer = sum(temp_first_list)
+        else:
+            temp_value = temp_first_list[0]
+            for k in range(temp_first_list):
+                if s[first] == "-":
+                    temp_value -= temp_first_list[k]
+                elif s[first] == "*":
+                    temp_value *= temp_first_list[k]
+            temp_answer = temp_value
+        answer = max(temp_answer, answer)
+        
+    return answer
