@@ -1,17 +1,28 @@
+from collections import deque
+
 m = int(input())
 n = int(input())
-list_ = [x for x in range(1, m+1)]
-check_list = [x for x in range(1, m+1)]
+list_ = [[] for _ in range(0, m+1)]
+check_list = [0 for _ in range(0, m+1)]
+
+
 for i in range(n):
     a, b =map(int, input().split())
-    list_[a].appned(b)
+    list_[a].append(b)
+    list_[b].append(a)
 
-def dfs():
 
-cnt = 2
 cnt = 0
-for i in range(1,m+1):
-    if check_list[i] != 0:
-        cnt += 1
+st = deque()
+st.append(1)
 
-print(cnt)
+while st:
+    pop_index = st.popleft()
+    if check_list[pop_index] == 0:
+        check_list[pop_index] = 1
+        cnt += 1
+        for j in list_[pop_index]:
+            st.append(j)
+
+print(cnt-1) # 1번 제외
+ 
