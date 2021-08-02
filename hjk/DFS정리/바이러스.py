@@ -11,6 +11,13 @@ for i in range(n):
     list_[a].append(b)
     list_[b].append(a)
 
+print(list_)
+
+
+
+
+
+
 
 cnt = 0
 st = deque()
