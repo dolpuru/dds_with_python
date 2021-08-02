@@ -8,7 +8,7 @@ for i in range(n):
 
 def dfs():
 
-
+cnt = 2
 cnt = 0
 for i in range(1,m+1):
     if check_list[i] != 0:
