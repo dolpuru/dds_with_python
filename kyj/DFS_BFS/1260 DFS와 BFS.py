@@ -35,6 +35,7 @@ for i in range(M):
 
 visited = [0] * (N + 1)
 
+#리스트 정렬
 for i in range(1,N+1):
     li[i].sort()
 
