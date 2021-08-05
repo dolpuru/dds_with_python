@@ -1,11 +1,11 @@
 def dfs(li,v,visited):
     visited[v] = True
-    result.append(v)
+    global count 
     for i in li[v]:
         if not visited[i]:
             dfs(li,i,visited)
-           #왜 안되지?=> count += 1
-    return len(result)
+            count += 1
+    return count
 
 c = int(input())
 n = int(input())
@@ -17,7 +17,6 @@ for i in range(1, n+1):
     li[num_1].append(num_2)
     li[num_2].append(num_1)
 
-result = []
-
+count = 0
 visited = [False] * (c + 1)
-print(dfs(li,1,visited) - 1)
+print(dfs(li,1,visited))
