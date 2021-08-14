@@ -58,10 +58,10 @@ for i in range(m):
 
                                 if list_2[k][l] == 0 and list_2[p][o] == 0 and list_2[i][j] == 0:
 
-                                    if [[i,j],[k,l],[p,o]] in wall_list: # 넣어서 확인 하는 방식이 아니라 애초에 중복이 안되게 넣어야함 
-                                        continue
-                                    else:
-                                        wall_list.append([[i,j],[k,l],[p,o]])
+                                    # if [[i,j],[k,l],[p,o]] in wall_list: # 넣어서 확인 하는 방식이 아니라 애초에 중복이 안되게 넣어야함 
+                                    #     continue
+                                    # else:
+                                    #     wall_list.append([[i,j],[k,l],[p,o]])
 
                                     list_ =  copy.deepcopy(list_2)
                                     list_[i][j] = 1
