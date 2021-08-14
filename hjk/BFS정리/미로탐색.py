@@ -15,7 +15,7 @@ def for_():
         x,y, c = q.popleft()
         # list_[new_x][new_y] = "2" 여기서 체크를 하면 반복된 지점이 들어갈 수 있다. 
         if x == m-1 and y == n-1:
-            return c + 1
+            return c + 1 
         for i in range(4):
             new_x = x + dx[i]
             new_y = y + dy[i]
