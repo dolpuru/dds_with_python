@@ -1,6 +1,7 @@
-n, m = map(int, input().split())
-li = []
+from collections import deque
+n , m = map(int,input().split())
+map_ = []
 for i in range(n):
-    li.append(input())
+    map_.append(list(map(int, input().split())))
 
-print(li)
+print(map_)
