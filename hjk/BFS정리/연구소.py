@@ -86,7 +86,7 @@ for i in range(m):
 
 print(answer)
 
-# 다른사람 풀이
+# 다른사람 풀이 이러면 애초에 중복이 안되게 들어감
 
 # def wall(cnt):
 #     if cnt == 3:
