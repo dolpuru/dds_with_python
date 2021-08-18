@@ -21,6 +21,8 @@ level : silver 5 ~ gold 1
 ```bash
 ~7/28 Binary Search gold 3
 ~8/5 BFS,DFS silver 1 and Two Pointer gold 5
+~8/29 DFS,BFS, Binary Search, Two pointer, backtracking review
+~9/6 Dijkstra gold 1
 ```
 <br></br>
  
