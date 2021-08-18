@@ -36,6 +36,7 @@ for _ in range(R):
     board.append(line)
 board.append([False for _ in range(C+2)])
 
+# 그때의 상태값을 넘겨준다.(백트레킹) 근데 이 문제는 queue로 말고 set으로 구현해야 통과라는데 이유는 중복이 되어서 그런 것 같다. 
 def bfs(board, x, y):
     global max_cnt
     queue = set()
