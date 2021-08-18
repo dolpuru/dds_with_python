@@ -5,6 +5,7 @@ for i in range(n):
     estate.append(list(map(int,input())))
 house_n = []
 
+
 def bfs(estate, i,j):
     global n
     house = 1
@@ -25,8 +26,6 @@ def bfs(estate, i,j):
                 q.append((nx, ny))
                 house += 1
     return house
-                
-
 
 
 for i in range(n):
