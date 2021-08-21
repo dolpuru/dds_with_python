@@ -18,5 +18,5 @@ dic[2] = p2.count(0)
 dic[3] = p3.count(0)
 for k,v in dic.items():
     if max(dic.valuse()) == v:
-        answer.append(k)
+        answer.append(i)
 print(answer)
