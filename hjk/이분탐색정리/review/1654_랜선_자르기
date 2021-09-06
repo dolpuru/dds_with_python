@@ -1,0 +1,33 @@
+n, m = map(int, input().split())
+list_ = []
+for _ in range(n):
+    list_.append(int(input()))
+
+def cnt_len(flag):
+    cnt = 0
+    for i in list_:
+        cnt += i // flag
+    
+    return cnt
+
+
+left = 1
+right = max(list_)
+
+result = 0
+
+while left <= right:
+    mid = (left + right)//2
+
+    temp = cnt_len(mid)
+
+    if temp < m:
+        right = mid - 1
+    else:
+        if result < mid:
+            result = mid
+        left = mid + 1
+
+print(result)
+
+    
