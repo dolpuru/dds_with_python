@@ -21,6 +21,14 @@ level : silver 5 ~ gold 1
 ```bash
 ~7/28 Binary Search gold 3
 ~8/5 BFS,DFS silver 1 and Two Pointer gold 5
+~8/22 그렙 코딩테스트 완료 
+~8/24 프로그래머스 lv1 다풀기 및 저녁에 리뷰
+~8/29 DFS,BFS, Binary Search, Two pointer, backtracking review
+~~9/6 Dijkstra gold 1~~
+~9/8 Binary Search review 1
+~9/15 BFS/DFS review 1
+~9/22 Binary Search review 1
+~9/22 BFS/DFS review 2
 ```
 <br></br>
  
