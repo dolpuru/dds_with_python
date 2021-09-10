@@ -26,6 +26,7 @@ level : silver 5 ~ gold 1
 ~8/29 DFS,BFS, Binary Search, Two pointer, backtracking review
 ~~9/6 Dijkstra gold 1~~
 ~9/8 Binary Search review 1
+9/10 kakao 코딩테스트
 ~9/15 Binary Search review 1
 ~9/15 KaKao bilnd test review 1
 ~9/22 KaKao bilnd test review 2
