@@ -28,9 +28,7 @@ level : silver 5 ~ gold 1
 ~9/8 Binary Search review 1
 9/10 kakao 코딩테스트
 ~9/15 Binary Search review 1
-~9/15 KaKao bilnd test review 1
-~9/22 KaKao bilnd test review 2
-
+~9/22 KaKao bilnd test review 1
 ```
 <br></br>
  
