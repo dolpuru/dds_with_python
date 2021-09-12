@@ -5,7 +5,7 @@
 
 <h2> 일정관리 툴 :  </h2> <img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="50" height="50">
 
- <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/FlaskStudy-655ced?style=for-the-badge&color=orange" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
+ <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/FlaskStudy-655ced?style=for-the-badge&color=orange" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/AlgStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
   <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/AlgStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
 
 <h6><p align = "center">  버튼을 클릭하면 링크로 이동합니다.  </p></h6>
