@@ -1,15 +1,17 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
 
-<h1>development_department_study_with_python (dds)</h1> 
-스터디에 오신 것을 환영합니다. 
+<h1>development_department_study_with_python (dds)</h1>
 
-<h2> 일정관리 툴 :  </h2> <img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="50" height="50">
+
+<h2> What kind of study is it? </h2>
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp </a>&nbsp <img src="https://img.shields.io/badge/Algorithm-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp<img src="https://img.shields.io/badge/Flask-3766AB?style=flat-square&logo=Flask&logoColor=white"/>
+<h2> Scheduling tool : Notion </h2> <img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="50" height="50">
 
  <p align = "center"><a href="https://www.notion.so/desktop"><img src="http://img.shields.io/badge/Download_notion-655ced?style=for-the-badge&color=lightgrey" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
  <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/Flask_Study-655ced?style=for-the-badge&color=orange" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
   <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/Alg_Study-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
 
-<h6><p align = "center">  버튼을 클릭하면 링크로 이동합니다.  </p></h6>
+<h6><p align = "center">  Click the button to go to the link.  </p></h6>
 
 <br></br>
 
