@@ -43,7 +43,7 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Team</td>
+<td style="text-align:left">Leader</td>
 <td style="text-align:left">한준규</td>
 <td style="text-align:left">Backend</td>
 <td style="text-align:left">must1080@naver.com</td>
