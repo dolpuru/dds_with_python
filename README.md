@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
 
-<h1>Python Algorithm Study with BJ</h1> 
+<h1>development_department_study_with_python (dds)</h1> 
 
 
  <p align = "center"><a href="https://colab.research.google.com/notebooks/intro.ipynb"><img src="http://img.shields.io/badge/Colab-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
