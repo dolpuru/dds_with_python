@@ -1,6 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
 
 <h1>development_department_study_with_python (dds)</h1>
+<h3> Welcome to the development department study. The team leader gives assignments every week. If you are confused while doing an assignment, ask your team leader</h3>
 <br></br>
 
 <h2> What kind of study is it? </h2>
