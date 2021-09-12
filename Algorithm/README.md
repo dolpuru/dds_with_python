@@ -1,7 +1,7 @@
 
 
 <h1>Python Algorithm Study with BJ</h1> 
-
+https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f
 
  <p align = "center"><a href="https://colab.research.google.com/notebooks/intro.ipynb"><img src="http://img.shields.io/badge/Colab-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
  
