@@ -4,7 +4,8 @@
 
 
 <h2> What kind of study is it? </h2>
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp </a>&nbsp <img src="https://img.shields.io/badge/Algorithm-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp<img src="https://img.shields.io/badge/Flask-3766AB?style=flat-square&logo=Flask&logoColor=white"/>
+ <p align = "center"><img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a> </a>&nbsp <img src="https://img.shields.io/badge/Algorithm-3766AB?style=flat-square&logo=Python&logoColor=white"/></a><img src="https://img.shields.io/badge/Flask-3766AB?style=flat-square&logo=Flask&logoColor=white"/></p>
+ 
 <h2> Scheduling tool : Notion </h2> <img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="50" height="50">
 
  <p align = "center"><a href="https://www.notion.so/desktop"><img src="http://img.shields.io/badge/Download_notion-655ced?style=for-the-badge&color=lightgrey" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
