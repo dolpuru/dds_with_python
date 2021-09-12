@@ -1,8 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
 
 <h1>development_department_study_with_python (dds)</h1> 
+스터디에 오신 것을 환영합니다. 
 
-## 일정관리 툴 : notion
+## 일정관리 툴 : notion <img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="300" height="300">
 
  <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/FlaskStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
   <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/AlgStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
