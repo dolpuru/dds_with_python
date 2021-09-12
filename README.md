@@ -2,37 +2,17 @@
 
 <h1>development_department_study_with_python (dds)</h1> 
 
+## 일정관리 툴 : notion
 
- <p align = "center"><a href="https://colab.research.google.com/notebooks/intro.ipynb"><img src="http://img.shields.io/badge/Colab-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
- 
+ <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/FlaskStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
+  <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/AlgStudy-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
 
 <h6><p align = "center">  버튼을 클릭하면 링크로 이동합니다.  </p></h6>
 
 <br></br>
 
-## Level
-```bash
-https://solved.ac/
-level : silver 5 ~ gold 1
-```
-<br></br>
 
-## plan
-```bash
-~7/28 Binary Search gold 3
-~8/5 BFS,DFS silver 1 and Two Pointer gold 5
-~8/22 그렙 코딩테스트 완료 
-~8/24 프로그래머스 lv1 다풀기 및 저녁에 리뷰
-~8/29 DFS,BFS, Binary Search, Two pointer, backtracking review
-~~9/6 Dijkstra gold 1~~
-~9/8 Binary Search review 1
-9/10 kakao 코딩테스트
-~9/15 Binary Search review 1
-~9/22 KaKao bilnd test review 1
-```
-<br></br>
- 
-## How to start algo study ?
+## How to start studying with us?
  
 - [x] please send mail to must1080@naver.com
 
