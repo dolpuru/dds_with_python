@@ -8,7 +8,7 @@
  
 <h2> Scheduling tool : Notion </h2>
 
-<p align = "center"><img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="70" height="50"></p>
+<p align = "center"><img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="60" height="50"></p>
 
  <p align = "center"><a href="https://www.notion.so/desktop"><img src="http://img.shields.io/badge/Download_notion-655ced?style=for-the-badge&color=lightgrey" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
  <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/Flask_Study-655ced?style=for-the-badge&color=orange" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
