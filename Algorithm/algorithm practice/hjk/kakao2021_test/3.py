@@ -56,6 +56,7 @@ def solution(fees, records):
     temp_temp2.sort()
     print(temp_temp)
     print(temp_temp2)
+    
     # ... 와 너무 좋은 문제였어용
     # 차량번호 적은 순으로 정렬
     sorted_list = sorted(temp_temp2)
