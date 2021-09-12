@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
+
 
 <h1>Python Algorithm Study with BJ</h1> 
 
@@ -97,8 +97,5 @@ level : silver 5 ~ gold 1
 <br></br>
 
 
-
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=footer&fontSize=90)
-  
 
 
