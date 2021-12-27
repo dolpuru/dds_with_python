@@ -12,7 +12,7 @@ def prime_n(x):
         if x % i == 0:
             return False 
     return True
-
+ 
 
 n = 110011
 k = 10

@@ -34,4 +34,4 @@ for k,v in dic.items():
 for i in dic.values():
     if i == 1 or i == 2:
         answer += 1
-print(answer)
+print( answer )

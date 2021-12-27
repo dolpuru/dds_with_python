@@ -13,7 +13,7 @@ for i in skill:
         for j in range(i[1],i[3]+1):
             for k in range(i[2],i[4]+1):
                 board[j][k] += + i[5]
-
+ 
 
 def bfs(board, i,j):
     n = len(board)

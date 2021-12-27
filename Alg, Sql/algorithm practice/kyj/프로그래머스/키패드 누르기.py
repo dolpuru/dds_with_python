@@ -44,4 +44,4 @@ for number in numbers:
                 right = number
                 answer = answer + "R"
 
-print( answer )
+print(  answer  )

@@ -15,7 +15,7 @@ for i in records:
         temp.append(time)
     else:
         dic[car_n] = [time]
-        
+         
 
 for k,li_ in dic.items():
     time = datetime.datetime.strptime('00:00',"%H:%M")

@@ -18,5 +18,5 @@ for i in report_set:    #불량 이용자 찾기
     else:
         dic[reported] = name
 
-
+ 
 print(dic.items())
