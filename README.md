@@ -1,38 +1,26 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=135&section=header&text=&fontSize=90&fontAlignY=30&)
 
-<h1>Python Algorithm Study with BJ</h1> 
+<h1>development_department_study_with_python (dds)</h1>
+<h6> Welcome to the development department study. The team leader gives assignments every week. If you are confused while doing an assignment, ask your team leader</h6>
+<br></br>
 
+<h2> What kind of study is it? </h2>
+ <p align = "center"><img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white"/></a> </a>&nbsp <img src="https://img.shields.io/badge/Algorithm-3766AB?style=for-the-badge&logo=Python&logoColor=white"/></a> </a>&nbsp<img src="https://img.shields.io/badge/Flask-3766AB?style=for-the-badge&logo=Flask&logoColor=white"/></p>
+ <br></br>
+<h2> Scheduling tool : Notion </h2>
 
- <p align = "center"><a href="https://colab.research.google.com/notebooks/intro.ipynb"><img src="http://img.shields.io/badge/Colab-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
- 
+<p align = "center"><img src="https://github.com/doongu/dds_with_python/blob/main/notion_icon.png" width="60" height="50"></p>
 
-<h6><p align = "center">  버튼을 클릭하면 링크로 이동합니다.  </p></h6>
+ <p align = "center"><a href="https://www.notion.so/development_department_study_with_python-dds-fb5920dcce5b4eca95d625a256dac1db"><img src="http://img.shields.io/badge/Study_log-655ced?style=for-the-badge&color=lightgrey" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
+ <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Flask-c1457e2cd6c2453ebe97e61e804ecc46"><img src="http://img.shields.io/badge/Flask_Study-655ced?style=for-the-badge&color=orange" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
+  <p align = "center"><a href="https://wonderful-eagle-efe.notion.site/Algstudy-91a49d25378941d09fd47208864f738f"><img src="http://img.shields.io/badge/Alg_Study-655ced?style=for-the-badge&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/></a> </p>
+
+<h6><p align = "center">  Click the button to go to the link.  </p></h6>
 
 <br></br>
 
-## Level
-```bash
-https://solved.ac/
-level : silver 5 ~ gold 1
-```
-<br></br>
 
-## plan
-```bash
-~7/28 Binary Search gold 3
-~8/5 BFS,DFS silver 1 and Two Pointer gold 5
-~8/22 그렙 코딩테스트 완료 
-~8/24 프로그래머스 lv1 다풀기 및 저녁에 리뷰
-~8/29 DFS,BFS, Binary Search, Two pointer, backtracking review
-~~9/6 Dijkstra gold 1~~
-~9/8 Binary Search review 1
-~9/15 BFS/DFS review 1
-~9/22 Binary Search review 1
-~9/22 BFS/DFS review 2
-```
-<br></br>
- 
-## How to start algo study ?
+## How to start studying with us?
  
 - [x] please send mail to must1080@naver.com
 
@@ -55,7 +43,7 @@ level : silver 5 ~ gold 1
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Team</td>
+<td style="text-align:left">Leader</td>
 <td style="text-align:left">한준규</td>
 <td style="text-align:left">Backend</td>
 <td style="text-align:left">must1080@naver.com</td>
@@ -88,6 +76,15 @@ level : silver 5 ~ gold 1
 <td style="text-align:left">skatks1016@naver.com</td>
 <td style="text-align:left"><a href="https://github.com/kmj111">
 <img src="http://img.shields.io/badge/kmj111-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+</a></td>
+</tr>
+ <tr>
+<td style="text-align:left">Team</td>
+<td style="text-align:left">오하람</td>
+<td style="text-align:left">미정</td>
+<td style="text-align:left">5gkfka5@naver.com</td>
+<td style="text-align:left"><a href="https://github.com/Haram0111">
+<img src="http://img.shields.io/badge/Haram0111-655ced?style=social&logo=github&color=informational" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a></td>
 </tr>
 </tbody>
