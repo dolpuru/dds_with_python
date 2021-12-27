@@ -1,2 +1,6 @@
-board = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]	
-print(len(board))
+from collections import defaultdict
+
+dict = defaultdict(list)
+for i in range(len(list)):
+    dict[list[i][1]] += [list[i][0]]
+print(dict)
