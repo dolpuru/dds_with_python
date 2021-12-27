@@ -22,7 +22,7 @@ answer = w_max * max(li)
 print(w)
 print(h)
 
-print(answer)
+print( answer )
 
     
     
