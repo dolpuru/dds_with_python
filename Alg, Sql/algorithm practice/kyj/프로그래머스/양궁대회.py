@@ -4,18 +4,23 @@ def solution(n, info):
     count, a_score, l_score= 0,0,0
     max_  = 0 
     
-    for i in range(10):
+    for i in range(11):
         if info[i]: a_score += 10-i
     
     def dfs(a_score,l_score, idx,li):
         temp = copy.deepcopy(li)
-        if idx >= 11:
+        if idx >= 11 or sum(temp) >= n:
             nonlocal max_
             nonlocal answer
             if max_ < l_score - a_score:
                 max_ = l_score - a_score
-                if sum(temp) < n:   temp[-1] = n - sum(temp)
                 answer = temp
+            elif max_ == l_score - a_score:
+                a,b = 0,0
+                for i in range(11):
+                    if answer[i]:   a+=i
+                    if temp[i]: b+=i
+                if b>=a: answer = temp
             return
         else:
             #피하고 다른 것
@@ -32,7 +37,15 @@ def solution(n, info):
                 dfs(a_score,l_score,idx+1,temp)
     
     dfs(a_score,l_score,0,answer)
-    
-    return [-1] if answer == [0,0,0,0,0,0,0,0,0,0,0] else answer
+    if answer == [0,0,0,0,0,0,0,0,0,0,0] or max_==0:   return [-1]
+    else: 
+        if sum(answer) < n:   answer[-1] = n - sum(answer)
+        return answer
+
+# 케이스 8, 18 틀리는 경우 ㄱ 아래 조건 미포함
+#"라이언이 가장 큰 점수 차이로 우승할 수 있는 방법이 여러 가지 일 경우, 가장 낮은 점수를 더 많이 맞힌 경우를 return 해주세요."
+
+# 위 조건을 넣었더니 케이스 23 오류 
+# max == 0이면 [-1] 반환
 
 print(solution(10,[0,0,0,0,0,0,0,0,3,4,3]))
