@@ -1,10 +1,8 @@
 from itertools import combinations
-import re
-
-
 def solution(relation):
     answer = []
     cal = [i for i in range(len(relation[0]))]
+
     def dis(c,relation):
         nonlocal answer
         cals = []
@@ -26,10 +24,7 @@ def solution(relation):
                 if dis(c,relation): answer.append(c)
             else:
                 for li in answer:    
-                    temp = set()
-                    temp.update(li)
-                    temp.update(c)
-                    if len(temp) != len(li)+ len(c): break
+                    if set(li).issubset(c): break
                 else:    
                     if dis(c,relation): answer.append(c)
 
