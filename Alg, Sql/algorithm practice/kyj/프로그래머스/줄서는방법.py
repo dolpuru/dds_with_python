@@ -1,23 +1,19 @@
 import math
 def solution(n, k):
     answer = []
-    def line(li,n,k):
-        nonlocal answer
-        if n == 1: 
-            answer.append(li[0])
-            return 
-        else:
-            q,r = divmod(k-1,math.factorial(n-1))
-            print(q,r)
-            answer.append(li[q])
-            li.pop(q)
-            print(li,n-1,r,answer)
-            line(li,n-1,r)
-        
-        print(answer)
-    li = [ i for i in range(1,n+1)]
-    print(line(li,n,k))
+    li = [i+1 for i in range(n)]
 
+    def line(k,li):
+        nonlocal answer
+        if k == 0 or len(li) ==0 :    
+            answer = answer + li
+            return
+        else:
+            s,r = divmod(k-1,math.factorial(len(li)-1))
+            answer.append(li.pop(s))
+            line(r+1,li)
+
+    line(k,li)
     return answer
 
 print(solution(3,4))
