@@ -1,27 +1,12 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-    <script src="https://cdn.rawgit.com/abdmob/x2js/master/xml2json.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        var xhr = new XMLHttpRequest();
-var url = 'http://api.data.go.kr/openapi/tn_pubr_public_cctv_api'; /*URL*/
-var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'TEIl/ukl0MW7dRZg6hsxrqRzvq306ZzjVRMufhBmWvm8XrcZQbUa6FSp4uELBTykVh+Hpgl/9JNNMO7B6j3bJQ=='; /*Service Key*/
-queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('0'); /**/
-queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('100'); /**/
-queryParams += '&' + encodeURIComponent('type') + '=' + encodeURIComponent('xml'); /**/
-xhr.open('GET', url + queryParams);
-xhr.onreadystatechange = function () {
-    if (this.readyState == 4) {
-        alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-    }
-};
-
-xhr.send('');
-
-
-    </script>
+    <h1>Hello</h1>
 </body>
-
 </html>
