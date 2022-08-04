@@ -16,8 +16,7 @@ def solution(n):
                 else: Queen(count+1)
     Queen(0)
     return answer
-
-
+    
 # def solution(n):
 #     answer = 0
 #     row = [0] * n
@@ -41,4 +40,4 @@ def solution(n):
 
 #     return answer
 
-# print(solution(4))
+print(solution(4))
